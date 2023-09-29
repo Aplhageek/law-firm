@@ -1,0 +1,42 @@
+.btnNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnNavigation {
+  position: absolute;
+  right: 0;
+  display: flex;
+  gap: 20px;
+  top: -120px;
+  z-index: 100;
+}
+
+.CAROUSELbuttonLeft {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.CAROUSELbuttonLeft:hover {
+  transform: scale(1.1);
+  transform: rotate(30deg);
+}
+
+.CAROUSELbuttonLeft:active {
+  transform: scale(0.75);
+}
+
+.CAROUSELbuttonRigth {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.CAROUSELbuttonRigth:hover {
+  transform: scale(1.1);
+  transform: rotate(-30deg);
+}
+
+.CAROUSELbuttonRigth:active {
+  transform: scale(0.75);
+}

@@ -1,0 +1,49 @@
+.Intro_wrapper {
+  width: 1132px;
+  height: 174px;
+  margin: 75px auto;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Intro_Heading {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 87.222px;
+  width: 387px;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 475px;
+height: 155px;
+}
+
+
+.Intro_Description_heading{
+text-align: center;
+
+font-size: 32px;
+
+font-weight: 600;
+line-height:52.007px ;
+}
+
+
+.Intro_Description{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29.254px ;
+  opacity: 0.3;
+}
+
+
+.line{
+  width: 1px;
+height: 206px;
+background-color: var(--color-grey);
+}

@@ -1,0 +1,58 @@
+.CarouselCard_wrapper {
+  width: 359px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.1);
+  padding: 36px 40px 38px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+
+.CarouselCard_wrapper > img{
+    width: 105px;
+    border-radius: 105px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.CarouselCard_wrapper:hover > img{
+    transform: scale(1.1);
+     filter :brightness(50%); 
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name{
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 100% */
+}
+
+.designation{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+}
+
+.descrip{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 162.523%; /* 22.753px */
+opacity: 0.3;
+}

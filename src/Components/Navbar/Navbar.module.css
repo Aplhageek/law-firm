@@ -1,0 +1,21 @@
+.NavbarWrapper {
+  /* width: 100vw; */
+  width: 1440px;
+  margin: 0 auto;
+  background-color: var(--color-primary);
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+  height: 120px;
+  align-items: center;
+}
+
+.Navbarbtn {
+  cursor: pointer;
+  width: 172px;
+  height: 47px;
+  border: 2px solid #fff;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 600;
+}

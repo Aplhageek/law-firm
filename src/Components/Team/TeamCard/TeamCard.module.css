@@ -1,0 +1,47 @@
+.teamcard_wrapper{
+    display: flex;
+    width: 344px;
+height: 109px;
+flex-shrink: 0;
+align-items: center;
+gap: 22px;
+border-radius: 14px;
+padding: 26px 23px;
+cursor: pointer;
+}
+
+.teamcard_wrapper > img{
+    width: 68px;
+    border-radius: 68%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.teamcard_wrapper:hover > img{
+    transform: scale(1.1);
+     filter :brightness(50%); 
+}
+
+.teamcard_wrapper:hover{
+    background-color: var(--color-yello);
+}
+
+.name{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 100% */
+}
+
+.cases{
+    color: var(--Pure-White, #FFF);
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+opacity: 0.3;
+}

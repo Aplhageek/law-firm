@@ -1,0 +1,16 @@
+.Testimonials_wrapper {
+  position: relative;
+  width: 1137px;
+  height: 626px;
+  margin: 200px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77.232px;
+}
